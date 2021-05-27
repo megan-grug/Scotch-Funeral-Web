@@ -12,26 +12,64 @@ body{
 
 #logo{
     font-family: 'Special Elite', cursive;
-    font-size: 200%;
+    font-size: 150%;
+    color: black;
+}
+/* Additional styling for menu items */
+.menu-items a:hover{
+  background-color: #555;
+  color: white !important;
 }
 
-footer{
-    height:30px;
+/* The side icon bar */
+.iconbar {
+  right: 0;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 60px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Side icon bar links */
+.iconbar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+/* Side icon bar links on mouse-over */
+.iconbar a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.iconbar i{
+    font-size:200%;
+    align-items: center;
+}
+
+/* Page content. Moving it in to the right from the side icon bar */
+div.content {
+  margin-left: 60px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 768px wide (bootstrap medium), make the sidebar into a footer */
+@media screen and (max-width: 768px) {
+  .iconbar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0%;
     text-align: center;
-    display:inline;
-}
+  }
 
-.social-media{
-    text-align: center;
-}
-
-.social-media li{
-    display:inline;
-}
-
-.social-media i{
-    font-size:160%;
-    margin: 1%;
-    padding: 1%;
-    color: #555555;
+  .iconbar a {float: left;}
+  div.content {margin-left: 0;}
 }
