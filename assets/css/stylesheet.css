@@ -9,8 +9,8 @@
 body{
     font-family: 'Special Elite', cursive;
     color: black;
-    background: url(/assets/img/rhylsealong.png);
-    height: 3600px;
+    background: url(/assets/img/bluesea.jpg);
+    background-size: cover;
 }
 
 .navbar{
@@ -33,9 +33,10 @@ body{
 /* The side icon bar */
 .iconbar {
   right: 0;
+  margin-top:75px;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 60px;
+  width: 75px;
   background-color:whitesmoke;
   position: fixed;
   height: 100%;
@@ -62,18 +63,101 @@ body{
     align-items: center;
 }
 
-/* Page content. Moving it in to the right from the side icon bar */
-div.content {
-  margin-left: 60px;
-  padding: 1px 16px;
-  height: 1000px;
+.container{
+    margin-top:30px;
+    margin-right:75px;
+    margin-left:0px;
 }
+
+#walton{
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 2.5% 2.5% 0 2.5%;
+    width:30%;
+}
+
+#crud{
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 2.5% 2.5% 0 2.5%;
+    width:30%;
+}
+
+#magazine{
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 2.5% 2.5% 0 2.5%;
+    width:30%;
+}
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.newsletter-form{
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    padding: 30px;
+}
+
+.signup-form h2{
+    color:#fafafa;
+    margin-bottom:20px;
+}
+
+.text-input{
+    background:transparent;
+    color:#fafafa;
+    width:300px;
+    height:25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius:2px; 
+    background-color: white;
+}
+
+.text-input:hover{
+    border-color:#f16c6b;
+   
+    }
+
+.submit-button{
+    margin-top:20px;
+    border-radius:15px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size:100%;
+    background-color:#0a618c;
+    color: white;
+    display:block;
+}
+
+.submit-button:hover {
+    background-color:white;
+    color:#0a618c
+}
+
+/* Page content. Moving it in to the right from the side icon bar */
+.content {
+  padding-top:75px;
+  padding-right: 75px;
+}
+
 
 /* On screens that are less than 768px wide (bootstrap medium), make the sidebar into a footer */
 @media screen and (max-width: 768px) {
   .iconbar {
     width: 100%;
-    height: auto;
+    height: 75px;
     position: fixed;
     bottom: 0%;
     text-align: center;
@@ -81,4 +165,10 @@ div.content {
 
   .iconbar a {float: left;}
   div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 768px wide (bootstrap medium), remove the right side content padding and add bottom padding instead */
+.content{
+    padding-right:0px;
+    padding-bottom: 75px;
 }
