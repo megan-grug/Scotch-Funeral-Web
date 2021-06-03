@@ -16,7 +16,7 @@ body{
 }
 /*Top Navbar*/
 .navbar{
-    background-color: #C3C3C1;
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -36,7 +36,7 @@ body{
 /* Side Icon Bar */
 .iconbar {
   right: 0;
-  margin-top:75px;
+  margin-top:74px;
   flex-direction: column;
   flex-wrap: nowrap;
   width: 75px;
@@ -131,7 +131,7 @@ body{
 
 /*CONTACT PAGE*/
 
-.form-section {
+.form-section{
     clear: left;
     background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
     background-size: cover;
