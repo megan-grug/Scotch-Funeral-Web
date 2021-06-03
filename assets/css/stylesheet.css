@@ -67,8 +67,8 @@ body{
 
 /* Page content. Moving it in to the right from the side icon bar */
 .content{
-  padding-top:75px;
-  padding-right: 75px;
+  margin-top:75px;
+  margin-right: 75px;
 }
 
 
@@ -96,6 +96,7 @@ body{
 .quotes{
     background-color: rgba(60, 60, 60, 0.6);
     padding: 10px;
+}
   /*  margin: 2.5% 2.5% 0 2.5%;
 }
 /*
@@ -128,6 +129,14 @@ body{
 /*MUSIC PAGE/*
 
 /*GIGS PAGE*/
+.mytable{
+    margin:auto;
+    margin-top:5%;
+    width: 70% !important;
+    background-color: rgba(60, 60, 60, 0.4);
+}
+
+  
 
 /*CONTACT PAGE*/
 
