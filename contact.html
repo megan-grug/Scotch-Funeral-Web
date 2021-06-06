@@ -55,10 +55,12 @@
 <!-- CONTENT -->
 <div class="content">
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row row-eq-height">
+<!--NEWSLETTER FORM-->
+            <div class="col h-100 d-inline-block">
                <form class="newsletter-form" method="post" action="#">
-                <h2>Be first to hear about gigs and new releases!</h2>
+                <h2 class="contact-heading">Sign up to the Scotch Funeral newsletter</h2>
+                <h5>Be first to hear about gigs and new releases</h3>
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="first_name" class="text-input" required>
             
@@ -73,9 +75,18 @@
                 <input type="submit" value="Sign Up!" class="submit-button">
                </form> 
             </div>
-            <div class="col">
-                <!--CODE FOR THIS CONTACT CARD FROM bootsnipp.com/snippets/N6kk4-->
-                        <form class="newsletter-form">
+            <div class="col h-100 d-inline-block">
+                 <form class="newsletter-form" method="post" action="#">
+                <h2 class="contact-heading">Contact the Band</h2>
+                <h5>Get in touch to book gigs or say hello and ask how we take our brews</h3>
+                <label for="email" >Email Address</label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+                <label for="message"> Message</label>
+                <textarea class="form-control" id="message" placeholder="Enter your message here" rows="6" required></textarea>
+                <input type="submit" value="Send" class="submit-button">
+            </form> 
+<!--CODE FOR THIS CONTACT CARD FROM bootsnipp.com/snippets/N6kk4-->
+                    <!--    <form class="newsletter-form">
                             <h2>Send us a message!</h2>
                             <div class="form-group">
                                 <label for="email"> Email address</label>
@@ -88,7 +99,7 @@
                             </div>
                             <div class="mx-auto">
                                 <input type="submit" value="Send" class="submit-button">
-                        </form>
+                        </form>-->
                     </div>
                 </div>
             </div>
