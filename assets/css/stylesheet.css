@@ -43,7 +43,7 @@ a:link{
 /* Side Icon Bar */
 .iconbar {
   right: 0;
-  margin-top:74px;
+ /* margin-top:74px;*/
   flex-direction: column;
   flex-wrap: nowrap;
   width: 75px;
@@ -95,7 +95,7 @@ a:link{
     }
 
     div.content {
-        margin-left: 0;
+        margin:0;
     }
 
 /* If screen is less than 768px wide (bootstrap medium), remove the right side content padding and add bottom padding instead */
@@ -116,6 +116,7 @@ a:link{
 .buffer{
     margin-bottom: 100px;
 }
+
   /*  margin: 2.5% 2.5% 0 2.5%;
 }
 /*
