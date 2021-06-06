@@ -17,10 +17,14 @@ body{
 }
 
 a:link{
-    color:black;
+    color:white;
     text-decoration: none;
-
 }
+
+.mytable>a:hover{
+    text-decoration:underline;
+}
+
 /*Top Navbar*/
 .navbar{
     background-color: whitesmoke;
@@ -321,10 +325,14 @@ a:link{
     margin:auto;
     margin-top:5%;
     width: 70% !important;
-    background-color: rgba(60, 60, 60, 0.4);
+    background-color: rgba(60, 60, 60, 0.9);
+    color:white;
 }
 
-  
+tr:hover{
+    background-color: rgba(245,245,245,0.5);
+    color:black;
+}
 
 /*CONTACT PAGE*/
 
