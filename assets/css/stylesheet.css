@@ -80,22 +80,34 @@ body{
         position: fixed;
         bottom: 0%;
         text-align: center;
+        z-index: 10;
     }
 
-    .iconbar a {float: left;}
-    div.content {margin-left: 0;}
+    .iconbar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
 
 /* If screen is less than 768px wide (bootstrap medium), remove the right side content padding and add bottom padding instead */
 
     .content{
         padding-right:0px;
-        padding-bottom: 75px;
+        margin-bottom: 150px;
     }
 }
+
+
 /*HOME PAGE*/
 .quotes{
     background-color: rgba(60, 60, 60, 0.6);
     padding: 10px;
+}
+
+.buffer{
+    margin-bottom: 100px;
 }
   /*  margin: 2.5% 2.5% 0 2.5%;
 }
@@ -168,7 +180,7 @@ body{
 */
 .container {
   position: relative;
-  width: 50%;
+  width: 70%;
 }
 
 .image {
@@ -177,8 +189,8 @@ body{
   height: auto;
 }
 
-.overlay {
-  position: absolute;
+.overlay-adam {
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -189,7 +201,7 @@ body{
   transition: .5s ease;
 }
 .overlay-jake {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 100%;
   right: 0;
@@ -200,11 +212,30 @@ body{
   transition: .5s ease;
 }
 
-#adam:hover .overlay {
+.overlay-bandbio {
+  position: relative;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(60, 60, 60, 0.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+#adam:hover .overlay-adam {
   width: 100%;
+  height:50%;
+
 }
 
 #jake:hover .overlay-jake {
+  width: 100%;
+  left:0;
+}
+
+#bandbio:hover .overlay-bandbio {
   width: 100%;
   left:0;
 }
@@ -219,9 +250,12 @@ body{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   white-space: nowrap;
+}
 
-
-/*MUSIC PAGE/*
+/*MUSIC PAGE*/
+.top-buffer{
+    padding-top:100px;
+}
 
 /*GIGS PAGE*/
 .mytable{
