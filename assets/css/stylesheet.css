@@ -432,3 +432,11 @@ tr:hover{
     color:black;
     text-decoration: underline;
 }
+
+.cat{
+    display:block;
+    margin:auto;
+    width:50%;
+    font-weight:bold;
+    text-align: center;
+}
