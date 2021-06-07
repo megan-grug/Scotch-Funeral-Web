@@ -307,7 +307,7 @@ a:link{
   text-align: center;
   font-size: 1.4rem;
   color: whitesmoke;
-  font-weight: heavy;
+  font-weight: bolder;
   margin: 2rem;
   letter-spacing: 1px;
   line-height: 1.75rem;
@@ -319,6 +319,12 @@ a:link{
   font-weight: bold;
   margin-top: 1.25rem;
   color: white;
+}
+
+/*ALBUM PAGES*/
+.album-player{
+    width:100%;
+    text-align: center;
 }
 
 /*GIGS PAGE*/
