@@ -16,6 +16,10 @@ body{
     background-size: cover;
 }
 
+footer{
+    text-align: center;
+}
+
 a:link{
     color:white;
     text-decoration: none;
