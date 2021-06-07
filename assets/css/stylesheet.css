@@ -368,15 +368,15 @@ tr:hover{
     text-decoration: underline;
 }
 
-.bottom-row{
-    padding-right:calc(var(--bs-gutter-x)/ 2);
-    padding-left:calc(var(--bs-gutter-x)/ 2);
-}
-
 .contact-details h2{
     color: black;
     font-weight: bold;
     text-align: center;
+}
+
+.contact-details a{
+    color:black;
+    text-decoration: underline;
 }
 
 .newsletter-form{
