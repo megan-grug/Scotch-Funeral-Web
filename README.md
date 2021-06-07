@@ -155,7 +155,7 @@ Goals:
 
 - Listen to music; 
     - On accessing the site, existing fans can immediately see a clear navigation bar which displays a section called ‘gigs’. One click to there will take them straight to a gallery of the band’s releases to choose from. Each thumbnail displays the name and release date of that release and forms a clickable link to take the user to a page where they can either stream or buy that release.
-    
+
 - Stay on top of the latest news from the band.
 
 **Potential fans of the band (B)**
@@ -178,3 +178,19 @@ Goals:
 - Listen to the band’s music; 
 - Access photos which can be used in articles;
 - Find contact information. 
+
+## CREDITS
+
+**Code Credits**
+
+https://stackoverflow.com/questions/59411725/how-would-i-center-this-iframe-on-a-webpage
+
+Code for centering album player pages. 
+
+Bandcamp - standard embedding used to create the music players. 
+
+**Media Credits**
+
+Photographs and album arwork provided by Scotch Funeral.
+Content written by the developer.
+Music by Scotch Funeral. 
