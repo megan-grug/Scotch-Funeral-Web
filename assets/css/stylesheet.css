@@ -358,8 +358,7 @@ tr:hover{
 .newsletter-form{
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
+    max-width: 100%;
     padding: 30px;
 }
 
@@ -374,7 +373,7 @@ tr:hover{
 .text-input{
     background:transparent;
     color:#fafafa;
-    width:300px;
+    width:90%;
     height:25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
@@ -383,8 +382,7 @@ tr:hover{
 }
 
 .text-input:hover{
-    border-color:#f16c6b;
-   
+    background-color:rgba(10,97,140,0.5);
     }
 
 .submit-button{
@@ -404,5 +402,6 @@ tr:hover{
 }
 
 #terms-conditions{
+    color:black;
     text-decoration: underline;
 }
