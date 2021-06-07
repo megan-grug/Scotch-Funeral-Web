@@ -190,10 +190,11 @@ a:link{
   white-space: nowrap;
 }
 */
+/*
 .container {
   position: relative;
-  width: 70%;
-}
+  width: 80%;
+}*/
 
 .image {
   display: block;
@@ -337,10 +338,10 @@ tr:hover{
 /*CONTACT PAGE*/
 
 .form-section{
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+  /*  clear: left;
+   /* background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
     background-size: cover;
-    background-position: center;
+ /*   background-position: center;*/
     height: 900px;
 }
 
@@ -390,4 +391,8 @@ tr:hover{
 .submit-button:hover {
     background-color:white;
     color:#0a618c
+}
+
+#terms-conditions{
+    text-decoration: underline;
 }
