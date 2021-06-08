@@ -1,7 +1,7 @@
 /*FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Special+Elite&display=swap');
 
-/*ALL PAGES*/
+/*UNIVERSAL/ALL PAGES*/
 *{
     margin:0;
     padding:0;
@@ -24,20 +24,17 @@ footer{
 .top-buffer{
     padding-top:50px;
 }
+
 .buffer{
     margin-bottom: 100px;
 }
 
-.mytable>a:hover{
-    text-decoration:underline;
-}
-
-/*Top Navbar*/
+/*Navbar*/
 .navbar{
     background-color: whitesmoke;
     color: black;
 }
-
+/*Scotch Funeral logo on all pages*/
 #logo{
     font-family: 'IM Fell English SC', serif;
     font-size: 200%;
@@ -45,6 +42,7 @@ footer{
     letter-spacing: 4px;
 }
 
+/*Additional styling for navbar*/
 .menu-items a:hover{
   background-color: #555;
   color: whitesmoke !important;
@@ -66,6 +64,7 @@ color:rgba(0,0,0,.55);
   overflow: auto;
 }
 
+/*Additional styling for iconbar*/
 .iconbar a {
   display: block;
   color: black;
@@ -84,18 +83,17 @@ color:rgba(0,0,0,.55);
 }
 
 /*MEDIA QUERIES FOR AFFECTING ALL PAGES*/
-@media screen and (min-width: 787px){
-
-/* Page content. Moving it in to the right from the side icon bar */
-.content{
-  margin-top:75px;
-  margin-right: 75px;
-  min-height: 100vh;
-} 
-
+/*When screen is 768px or larger move page content in to the right to leave space for the side icon bar*/
+@media screen and (min-width: 768px){
+    .content{
+        margin-top:75px;
+        margin-right: 75px;
+        min-height: 100vh;
+        } 
 }
+
 /* If screen is less than 768px wide (bootstrap medium), make the sidebar into a footer */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .iconbar {
         width: 100%;
         height: 75px;
@@ -109,26 +107,23 @@ color:rgba(0,0,0,.55);
         float: left;
     }
 
-/* If screen is less than 768px wide (bootstrap medium), remove the right side content padding and add bottom padding instead */
+/*If screen is less than 768px wide (bootstrap medium), remove the right side content padding and add bottom padding instead */
     .content{
         padding-right:0px;
         margin-bottom: 150px;
         margin-top:75px;
     }
 }
-/*If screen is less than 360px wide, change top margin*/
+/*If screen is less than 360px wide increase top margin*/
 @media screen and (max-width: 360px){
 .content {
     padding-right: 0px;
     margin-bottom: 150px;
     margin-top: 110px;
+    }
 }
-}
+
 /*HOME PAGE*/
-.quotes{
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 10px;
-}
 
 /*ABOUT PAGE*/
 #band-bio{
@@ -136,22 +131,22 @@ color:rgba(0,0,0,.55);
     font-size: smaller;
 }
 
-/*MUSIC PAGE*/
+/*ABOUT PAGE AND MUSIC PAGE*/
 
-.album-box{
+.overlay-box{
     overflow: hidden;
     position: relative;
 }
 
-.album-box .album-cover {
+.overlay-box .base-image {
   width: 100%;
   height: 100%;
 }
-.album-box .album-cover img {
+.overlay-box .base-image img {
   width: 100%;
   height: 100%;
 }
-.album-box .album-title {
+.overlay-box .overlay-text {
   width: 100%;
   height: 100%;
   background-color: rgba(60, 60, 60, 1);
@@ -167,10 +162,10 @@ color:rgba(0,0,0,.55);
   left: 100%;
   opacity: 0.8;
 }
-.album-box:hover .album-title {
+.overlay-box:hover .overlay-text {
   transform: translateX(-100%);
 }
-.album-box .album-title p {
+.overlay-box .overlay-text p {
   text-align: center;
   font-size: 1.4rem;
   color: whitesmoke;
@@ -179,7 +174,7 @@ color:rgba(0,0,0,.55);
   letter-spacing: 1px;
   line-height: 1.75rem;
 }
-.album-box .album-title p span {
+.overlay-box .overlay-text p span {
   display: block;
   letter-spacing: normal;
   font-size: 2rem;
@@ -203,6 +198,14 @@ color:rgba(0,0,0,.55);
     color:whitesmoke;
 }
 
+.mytable a{
+    color:whitesmoke;
+}
+
+.mytable>a:hover{
+    text-decoration:underline;
+}
+
 tr:hover{
     background-color: rgba(245,245,245,0.5);
     color:black;
@@ -218,22 +221,16 @@ tr:hover{
     color:whitesmoke;
 }
 
-.venue-link{
-    color:whitesmoke;
+.black-link{
+    color:black;
     text-decoration: underline;
 }
 
 /*CONTACT PAGE*/
-
 .contact-details{
     background-color: rgba(60, 60, 60, 0.6);
     color:whitesmoke;
     padding: 5%;     
-}
-
-.email-link{
-    color:black;
-    text-decoration: underline;
 }
 
 .contact-details h2{
@@ -306,5 +303,5 @@ tr:hover{
     margin:auto;
     width:50%;
     font-weight:bold;
-    text-align: center;
+    text-align: left;
 }

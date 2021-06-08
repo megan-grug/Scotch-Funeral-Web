@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <!--TOP NAVBAR-->
+    <!--TOP NAVBAR - this code is based on examples found in the Bootstrap 5 website at getbootstrap.com-->
     <header>
         <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light topbar">
             <div class="container-fluid">
@@ -50,7 +50,8 @@
             </div>
         </nav>
     </header>
-<!--ICONBAR -->
+
+    <!--ICONBAR - I used 'How To Create a Responsive Sidebar' at https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp as a starting point for creating the responsive side iconbar but had to make my own adjustments to achieve the look and function I had planned-->
     <div class="iconbar">
         <a href="https://www.facebook.com/Scotchfuneral" target="_blank" rel="noopener">
             <i class="fab fa-facebook-square"></i>
@@ -63,42 +64,47 @@
         </a> 
     </div>
 
-<!-- CONTENT -->
+    <!-- CONTENT -->
     <div class="content">
+
+        <!--BOOTSTRAP GRID-->
         <div class="container top-buffer">
             <div class="row">
-                <div class="col-12 col-md-6 gy-4 album-box">
-                    <div class="album-cover">
+                <!--ADAM IMAGE AND HOVER-OVER TEXT- code for hover-over effect taken from 'Coding Journey's Youtube tutorial 'Slide-In Overlay Hover Effect (HTML & CSS)' referred to in README-->
+                <div class="col-12 col-md-6 gy-4 overlay-box">
+                    <div class="base-image">
                         <img src="assets/img/adamlondonbw.jpg" class="img-thumbnail" alt="Adam, a white man with black hair wearing a black tshirt sitting with crossed arms looking into the camera">
                     </div>
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <p>Adam plays the guitar, sings and writes the songs for Scotch Funeral. Over several difficult years, he has trained himself to drink his tea without sugar</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 gy-4 album-box">
-                    <div class="album-cover">
+                <!--JAKE IMAGE AND HOVER-OVER TEXT- code for hover-over effect taken from 'Coding Journey's Youtube tutorial 'Slide-In Overlay Hover Effect (HTML & CSS)' referred to in README-->
+                <div class="col-12 col-md-6 gy-4 overlay-box">
+                    <div class="base-image">
                         <img src="assets/img/jakebw.JPG" class="img-thumbnail" alt="Close up of Jake, a white man with freckles squinting into the camera">
                     </div>
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <p>Jake plays the drums and drinks a lot of strong coffee.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 gy-4 album-box">
-                    <div class="album-cover">
+                <!--BAND IMAGE AND HOVER-OVER TEXT -code for hover-over effect taken from 'Coding Journey's Youtube tutorial 'Slide-In Overlay Hover Effect (HTML & CSS)' referred to in README-->
+                <div class="col-12 gy-4 overlay-box">
+                    <div class="base-image">
                         <img src="assets/img/promo2cropped.jpg" class="img-thumbnail" alt="Scotch Funeral playing live on stage. The band comprises two tall white men dressed in black, both are singing, one plays guitar and one plays drums. ">
                     </div>
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <p id="band-bio"><br>Scotch Funeral is a two-piece garage punk/antifolk band from North Wales.<br><br>
                             Their catchy pop inspired melodies come with a heavy serving of fuzz and themes spanning from mental health & substance abuse to decaying seaside towns and hiraeth.<br><br>
-</p>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <!--FOOTER-->
     <footer>Copyright 2021 Scotch Funeral</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

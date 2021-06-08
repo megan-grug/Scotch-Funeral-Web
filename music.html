@@ -9,7 +9,8 @@
     <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<!--TOP NAVBAR-->
+    
+    <!--TOP NAVBAR - this code is based on examples found in the Bootstrap 5 website at getbootstrap.com-->
     <header>
         <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light topbar">
             <div class="container-fluid">
@@ -50,7 +51,7 @@
         </nav>
     </header>
 
-<!--ICONBAR -->
+    <!--ICONBAR - I used 'How To Create a Responsive Sidebar' at https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp as a starting point for creating the responsive side iconbar but had to make my own adjustments to achieve the look and function I had planned-->
     <div class="iconbar">
         <a href="https://www.facebook.com/Scotchfuneral" target="_blank" rel="noopener">
             <i class="fab fa-facebook-square"></i>
@@ -63,41 +64,45 @@
         </a> 
     </div>
 
-<!-- CONTENT -->
+    <!-- CONTENT -->
     <div class="content top-buffer">
+        <!--BOOTSTRAP GRID-->
         <div class="container">
             <div class="row top-buffer">
-                <div class="col-12 col-md-4 gy-4 mt-10 album-box">
-                    <div class="album-cover">
+                <!--NOT DRINKING-->
+                <div class="col-12 col-md-4 gy-4 mt-10 overlay-box">
+                    <div class="base-image">
                         <a href="not-drinking.html">
                             <img src="assets/img/not-drinking.jpg" alt="artwork for 'Not Drinking' by Scotch Funeral showing Adam a white man with black hair looking vacantly into the camera. He is wearing a black tshirt. A 2 litre White Ace cider bottle has been cut in half horizontally, the bottom half is attached to Adam's chin and the top half is on his head">
                         </a>
                     </div>
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <a href="not-drinking.html">
                             <p><span>Not Drinking</span><span>2020</span></p>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 gy-4 mt-10 album-box">
-                    <div class="album-cover">
+                <!--THE SCREAMING MOON EP-->
+                <div class="col-12 col-md-4 gy-4 mt-10 overlay-box">
+                    <div class="base-image">
                         <a href="screaming-moon.html">
                             <img src="assets/img/screaming-moon.jpg" class="img-thumbnail" alt="album artwork for 'The Screaming Moon EP' by Scotch Funeral showing a collage of a row of houses on a black background with a large full moon in the top left corner and the title written in uneven lettering">
                         </a>
                     </div>
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <a href="screaming-moon.html">
                             <p><span>The Screaming Moon EP</span><span>2020</span></p>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 gy-4 mt-10 album-box">
-                    <div class="album-cover">
+                <!--CLARITY BEGINS AT HOME-->
+                <div class="col-12 col-md-4 gy-4 mt-10 overlay-box">
+                    <div class="base-image">
                         <a href="clarity.html">
                             <img src="assets/img/clarity.jpg" class="img-thumbnail" alt="album artwork for 'Clarity Begins At Home' by Scotch Funeral showing a polaroid picture of Adam with his hands over his face pulling down his eyes, which are closed, four black guitar pics and an empty pill packet">
                         </a>
                     </div>
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <a href="clarity.html">
                             <p><span>Clarity Begins At Home</span><span>2018</span></p>
                         </a>
@@ -105,37 +110,40 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-4 gy-4 album-box">
-                    <div class="album-cover">
+                <!--OH SILENUS!-->
+                <div class="col-12 col-md-4 gy-4 overlay-box">
+                    <div class="base-image">
                         <a href="silenus.html">
                             <img src="assets/img/silenus.jpg" class="img-thumbnail" alt="album artwork for 'Oh, Silenus!' by Scotch Funeral showing adam wearing a white t-shirt with an elephant and the word delirium on it and a black cardigan. He is drinking from a can of Fosters and wearing a tinfoil hat. The album title and band name have been handwritten in white on the black background">
                         </a>
                     </div>
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <a href="silenus.html">
                             <p><span>Oh, Silenus!</span><span>2016</span></p>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 gy-4 album-box">
-                    <div class="album-cover">
+                <!--EATING MY FEET-->
+                <div class="col-12 col-md-4 gy-4 overlay-box">
+                    <div class="base-image">
                         <a href="eating-my-feet.html">
                             <img src="assets/img/eating-my-feet.jpg" class="img-thumbnail" alt="album artwork for 'Eating My Feet' by Scotch Funeral showing tall black pine trees in front of a lake. Green trees can be seen in the background. There is a white header with 'Scotch Funeral' written on it in black text and a white footer with 'Eating My Feet' written on it in black">
                         </a>
                     </div> 
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <a href="eating-my-feet.html">
                             <p><span>Eating My Feet</span><span>2018</span></p>
                         </a>
                     </div> 
                 </div>
-                <div class="col-12 col-md-4 gy-4 album-box">
-                    <div class="album-cover">
+                <!--PURGATORY-->
+                <div class="col-12 col-md-4 gy-4 overlay-box">
+                    <div class="base-image">
                         <a href="purgatory.html">
                             <img src="assets/img/purgatory.jpg" class="img-thumbnail" alt="album artwork for 'Purgatory' by Scotch Funeral showing a very blurry picture of Adam standing against a black background wearing a black jumper and with his face painted to look like a skull">
                         </a>
                     </div> 
-                    <div class="album-title">
+                    <div class="overlay-text">
                         <a href="purgatory.html">
                             <p><span>Purgatory</span><span>2013</span></p>
                         </a>
@@ -147,7 +155,7 @@
 
     <div class="buffer"></div>
 
-<!--FOOTER-->
+    <!--FOOTER-->
     <footer>Copyright 2021 Scotch Funeral</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

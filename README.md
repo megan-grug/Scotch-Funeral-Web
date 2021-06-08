@@ -1,37 +1,34 @@
 # Scotch Funeral Website
 
+![examples of the project site shown on different sized screens](assets/img/responsive-capture.JPG)
+
 This is a website for Scotch Funeral, a garage-rock band based in North Wales. 
 
 It is a mobile first, responsive design and the live website can be viewed [here](https://megan-grug.github.io/Scotch-Funeral-Web/index.html). 
 
-An example of how the homepage looks on various screensizes can be viewed [here](https://github.com/megan-grug/Scotch-Funeral-Web/blob/master/assets/img/responsive-capture.JPG).
+An example of how the homepage looks on various screensizes is included above.
 
 
 ## USER EXPERIENCE:
 
 ### Who will use the website?
 
-**Existing fans of the band (A)**
-
-Goals:
+#### Existing fans of the band (A)
+**Goals:**
 - Find out about upcoming gigs;
 - Listen to music; 
 - Stay on top of the latest news from the band.
 
 
-
-**Potential fans of the band (B)**
-
-Goals:
+#### Potential fans of the band (B)
+**Goals:**
 - Find out more about the band;
 - Listen to music;
 - Sign up to keep in touch. 
 
 
-
-**The band themselves (C)**
-
-Goals:
+#### The band themselves (C)
+**Goals:**
 - Increase sales of music;
 - Increase streams of their music; 
 - Increase attendance at their gigs;
@@ -40,14 +37,12 @@ Goals:
 
 
 
-**Promoters and people working in the music industry (D)**
-
-Goals:
+#### Promoters and people working in the music industry (D)
+**Goals:**
 - Access information about the band quickly and easily (they are doing this in work, when they are likely to be busy rather than at leisure like fans);
 - Listen to the band’s music; 
 - Access photos which can be used in articles;
 - Find contact information. 
-
 
 
 ## STRATEGY PLANE:
@@ -69,35 +64,19 @@ Goals:
 
 
 **Viability of features:**
+| Feature                   | Importance  | Viability   |
+| --------------------------|------------ |-------------|
+| Gig calendar table        |     5       |     5       |
+| Information about the band|     5       |     5       |             |
+| Pictures of the band      |     5       |     5       |             |
+| Contact details           |     5       |     5       |
+| Newsletter signup form    |     5       |     4       |
+| Music streaming           |     5       |     3       |
+| Contact form              |     4       |     4       |
+| PDF Electronic Press Kit  |     4       |     3       |
+| Merch shop                |     2       |     1       |
+|                  
 
-Gig calendar table:
-Importance: 5 Viability: 5
-
-Information about the band:
-Importance: 5 Viability: 5
-
-Pictures of the band:
-Importance: 5 Viability: 5
-
-Contact details:
-Importance: 5 Viability: 5
-
-Newsletter sign up form:
-Importance: 5 Viability: 4
-
-Music streaming:
-Importance: 5 Viability: 4
-
-Contact form:
-Importance:	4 Viability: 4
-
-PDF Electronic Press Kit:
-Importance: 4 Viability: 4
-
-NOT INCLUDED
-
-Merch shop:
-Importance:	3 Viability: 2
 
 I have chosen not to include a merchandise shop in this incarnation of the project as I do not currently have the skills to execute this feature. Furthermore, the band already benefits from a basic merch shop on Bandcamp, so this was not deemed to be a high importance feature at this time.
 
@@ -202,57 +181,72 @@ Special Elite was chosen as it represented the more punk side of the band’s mu
 
 ## TECHNOLOGIES USED
 
-**Languages:**
+### Languages:
 -	HTML5
 -	CSS3
 
-**Frameworks, Libraries and Programs:**
--	Bootstrap 5:
+### Frameworks, Libraries and Programs:
+-	**Bootstrap 5:**
 Used for consistent styling and responsiveness. 
 
--	Google Fonts:
+-	**Google Fonts:**
 Used to import custom fonts IM Fell English SC and Special Elite as referred to above. 
 
--	Font Awesome:
+-	**Font Awesome:**
 Used to import icons used as social media links in iconbar. 
 
--	Git:
+-	**Git:**
 Used for version control between GitPod and GitHub.
 
--	GitHub:
+-	**GitHub:**
 Used to store and deploy the project. 
 
--	Moqups:
+-	**Moqups:**
 Used to create initial wireframes as part of the planning and designing stage. 
 
-- Google Developer Tools:
+-   **Google Developer Tools:**
 Used to inspect each page of the site and to check each element and function at a granular level to ensure it is working as planned.
 
 
 
 ## TESTING:
 
-**VALIDATOR SERVICES:**
-- W3C Markup Validator:
+### VALIDATOR SERVICES:
+- **W3C Markup Validator:**
+    
     All pages have been through the W3C Markup Validator and passed with the exception of:
         - Individual album pages show an error of "Error: Attribute seamless not allowed on element iframe at this point" and "Error: Text not allowed on the element iframe in this context".
         As this is the part of the music player embedding code from Bandcamp, I am not able to fix this. 
    
 
-- W3C CSS Validator:
+- **W3C CSS Validator:**
+    
     All CSS has been through the W3C CSS Validator and passed. 
 
-- Lighthouse:
+- **Lighthouse:**
+    
     All pages have been through Lighthouse and passed (90+ scores) with the exception of the home page which received a 'Best Practices' score of 87 due to 'serves images with low resolution'. This is something which I will seek to address in further incarnations of the project.
 
-**MANUAL TESTING**
+### MANUAL TESTING
 
-I have manually tested the site by visiting each page and methodically checking that it looks right at every size and that every feature works as intended. Manual testing was undertaken on all mainstream browsers with no noticable differences. 
+I have manually tested the site by: 
+
+- visiting each page;
+- methodically checking that it looks right at every size;
+- methodically checking that every feature works as intended at various sizes. 
+
+
+Manual testing was undertaken on the following browsers with no noticable differences:
+- Google Chrome;
+- Mozilla Firefox;
+- Microsoft Edge;
+- Opera;
+- Safari 
 
 **Home** 
 
 
-- The page looks and functions as expected when viewed in Google's Chrome browser at various sizes. 
+- The page looks and functions as expected when viewed at various sizes. 
 
 - The Scotch Funeral logo in the navbar appears in the correct place and works as a link back to the home page. 
 
@@ -278,7 +272,7 @@ I have manually tested the site by visiting each page and methodically checking 
 
 - The blockquote cards showing testimonials about the band display in the correct position. They have the appropriate spacing to enable the background image to show through and make the page more visually pleasing.
 
-The blockquote cards move from being vertically stacked to being side by side when the screen is resized to the medium breakpoint and above.
+- The blockquote cards move from being vertically stacked to being side by side when the screen is resized to the medium breakpoint and above.
 
 
 **About**
@@ -316,7 +310,8 @@ Each individual album page follows an identical format for consistency.
 - 'Not Drinking' individual album page:
 
     - All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly. 
-The only difference is that 'Music' is now shown in black rather than grey text to show that this is the active section, and on the 'Music' dropdown menu'Not Drinking' is highlighted blue to show that it is the active page. 
+    The only difference is that 'Music' is now shown in black rather than grey text to show that this is the active section, and on the 'Music' dropdown menu'Not Drinking' is highlighted blue to show that it is the active page. 
+    
     - The music player displays in the correct place and remains appropriately positioned as the screen is resized. 
 
     - The links are showing in the correct custom blue chosen to fit with the site's colour scheme. 
@@ -423,7 +418,7 @@ I overrode the effect of the set height for the text-input class by adding an id
 - The thumbnail for 'Not Drinking' on the 'Music' page was not loading on any browser. I checked the filepath for the image and removed an unneccessary '/' at the beginning. This fixed the issue.  
 
 
-**USER STORIES TESTING:**
+### USER STORIES TESTING:
 
 **Existing fans of the band (A)**
 
@@ -546,6 +541,19 @@ Goals:
     This means the user can use their preferred method. Some people may prefer to send an email through their own email client rather than using the webform as it may be easier for them to keep records, and music industry professionals are approaching this in their professional capacity so this may be more important to them. 
     Giving two options for getting in touch also means that if there is a problem with the web form for contacting the band, music industry professionals can still get in touch. 
 
+**FUTURE PLANS**
+
+As well as fixing the outstanding bugs and validation errors, I would also like to develop and include the following further ideas in subsequent versions of this project. 
+
+- Make the newsletter and contact forms work and send the data somewhere. 
+- Add a call to action to encourage users to sign up to the newsletter on the homepage. The band did not currently feel this was necessary but their needs are likely to change in the future and I would like the site to develop to reflect this. 
+- Add a Facebook button to the gig table to enable users to click 'attending' to the Facebook event for the gig. 
+This would support the band's goals as it would give such users notification reminders that the gig was coming up, and also advertise to their friends that they are attending. 
+These things in turn could increase attendance at the band's gigs. 
+- I would also like to implement a custom illustrated background with interactive elements in order to make visiting the website feel fun and special for the users. Unfortunately, this is currently outside the scope of my skills but it is something which I am going to start researching. 
+- In future, I would like to add a section for past gigs where setlists and photographs could be archived and visited by fans, however this is of low importance currently and therefore I have chosen not to implement it in this version of the project due to time constraints. 
+- I would like to add a webshop where the band could sell merchandise and music. Unfortunately, this is something which is currently beyond my skills and knowledge. 
+
 
 ## DEPLOYMENT
 
@@ -624,13 +632,18 @@ Used as a starting point for creating the contact form on the Contact page: http
 
 *Bootstrap*:
 
-The navbar and iconbar (including the 'music' dropdown) were adapted from examples on the Bootstrap website. 
+The navbar and iconbar (including the 'music' dropdown menu) were adapted from examples on the Bootstrap website. 
 
 
 *Coding Journey*:
 
 Tutorial and code 'Slide-In Overlay Hover Effect (HTML & CSS)' by user Coding Journey on Youtube https://www.youtube.com/watch?v=l0jLhFEzvJo
 Used to create the sliding hover effects on the 'About' and 'Music' pages. 
+
+
+*W3 Schools*:
+
+I used their 'How To' on 'How To Create a Responsive Sidebar' at https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp as a starting point for creating my responsive side iconbar. 
 
 **Media Credits**
 
