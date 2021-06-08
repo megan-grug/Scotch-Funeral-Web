@@ -191,6 +191,10 @@ Used to store and deploy the project.
 -	Moqups:
 Used to create initial wireframes as part of the planning and designing stage. 
 
+- Google Developer Tools:
+Used to inspect each page of the site and to check each element and function at a granular level to ensure it is working as planned.
+
+
 ## TESTING:
 **VALIDATOR SERVICES:**
 - W3C Markup Validator:
@@ -200,6 +204,112 @@ Used to create initial wireframes as part of the planning and designing stage.
 
 **MANUAL TESTING**
 
+I have manually tested the site by visiting each page and methodically checking that it looks right at every size and that every feature works as intended. 
+
+**Home** 
+
+*Google Chrome:*
+
+- The page looks and functions as expected when viewed in Google's Chrome browser at various sizes. 
+- The Scotch Funeral logo in the navbar appears in the correct place and works as a link back to the home page. 
+- The menu items in the navbar function as expected. The hamburger menu expands and retracts when it is clicked. The hover over effect colours each item into a dark grey and changes the text to white when the mouse is hovered over a menu item. 
+The links in the menu items all work. The dropdown for the 'Music' menu item displays correctly when it is clicked and retracts when clicked again.
+The same hover-over effect turning items into the opposite colour scheme also works as intended on the 'Music' dropdown. 
+- The nav bar resizes appropriately and changes from a left side bar with a hamburger menu into a top nav bar with the menu items laid out horizontally at the 'medium' breakpoint as intended. 
+- The social media links in the footer all work and each opens in a new tab as intended. 
+- The iconbar footer changes into a vertical right side iconbar at the medium breakpoint as intended. 
+- I have identified a bug where a tiny gap can sometimes be seen between the top of the right side icon bar and the bottom of the top navbar when the site is viewed on screen sizes above the medium breakpoint. This is discussed further below under 'Bugs'.
+- The iconbar footer hides the basic 'Copyright' footer until the page is resized to the medium breakpoint and above and the iconbar footer moves to a vertical right side iconbar. This is intended so as not to clutter the screen on small screen sizes as the information is deemed less important than the social media links and I did not want to overwhelm the page. 
+- The same hover-over effect as on the navbar is also set up on the icon bar to provide a consistent user experience and this is functioning as expected. 
+- The hero image displays at the right size and in the right position and re-sizes appropriately at different screen sizes. The image is not streched or pixelated. 
+- The blockquote cards showing testimonials about the band display in the correct position. They have the appropriate spacing to enable the background image to show through and make the page more visually pleasing.
+The blockquote cards move from being vertically stacked to being side by side when the screen is resized to the medium breakpoint and above.
+
+**About**
+*Google Chrome:*
+- All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly. 
+The only difference is that 'About' is now shown in black rather than grey text to show that this is the active link. 
+- The three images (Adam, Jake and band) display in the correct positions and respond as intended when the page is resized. 
+The images do not appear pixelated or stretched. 
+The hover-over function looks right. It displays in the correct place and is triggered by hovering the mouse over the images as planned. It retracts correctly when the mouse moves away. 
+The text on the 'about' hover-over sections is clear and easy to read. 
+
+**Music**
+
+*Google Chrome:*
+
+- All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly. 
+The only difference is that 'Music' is now shown in black rather than grey text to show that this is the active link. 
+- The album artwork thumbnails display in the correct place with appropriate spacing between them and respond as planned when the page is resized to sit side by side in two rows of three instead of horizontally stacked. 
+- The hover-over effect is consistent with that used on the 'About' page. The hover-over effect works as planned by displaying the album names and release dates overlaid over the album artwork when the mouse is hovered over it. The text is clear and legible.
+The hover-over effect retracts as intended when the mouse is moved away. 
+- Each album artwork thumbnail forms a clickable link which takes users to a dedicated page for that album where users can stream it. 
+All the thumbnail links work and direct to the correct place. 
+
+**Individual Album Pages**
+
+*Google Chrome:*
+
+Each individual album page follows an identical format for consistency. 
+- 'Not Drinking' individual album page:
+    - All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly. 
+The only difference is that 'Music' is now shown in black rather than grey text to show that this is the active section, and on the 'Music' dropdown menu'Not Drinking' is highlighted blue to show that it is the active page. 
+    - The music player displays in the correct place and remains appropriately positioned as the screen is resized. 
+    - The links are showing in the correct custom blue chosen to fit with the site's colour scheme. 
+    - The links function correctly and each opens in a new tab as they are external links. 
+    - The music player works and the correct music is played when users click the prominent 'play' button.
+- 'The Screaming Moon EP' individual album page:
+    - All the same testing as for the 'Not Drinking' individual album page has been carried out with the same results.
+- 'Clarity Begins At Home' individual album page:
+    - All the same testing as for the 'Not Drinking' individual album page has been carried out with the same results. 
+- 'Oh, Silenus!' individual album page:
+    - All the same testing as for the 'Not Drinking' individual album page has been carried out with the same results. 
+- 'Eating My Feet' individual album page:
+    - All the same testing as for the 'Not Drinking' individual album page has been carried out with the same results. 
+- 'Purgatory' individual album page:
+    - All the same testing as for the 'Not Drinking' individual album page has been carried out with the same results. 
+
+**Gigs**
+*Google Chrome:*
+- All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly. 
+The only difference is that 'Gigs' is now shown in black rather than grey text to show that this is the active link. 
+- The table is positioned as intended and is responsive, spreading out to fill the page as it is resized. 
+- The table and its text are clearly legible. 
+- The hover over effect changes any row which is hovered over to a light colour scheme to make it easier for users to read and focus. 
+The hover over effect works as intended by turning on when the mouse hovers over a row and turning off when it moves away. 
+- The 'Buy Tickets' link works and opens in a new tab. 
+
+**Contact**
+*Google Chrome:*
+- All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly. 
+The only difference is that 'Contact' is now shown in black rather than grey text to show that this is the active link. 
+- The four boxes are positioned correctly and look balanced. 
+- On resizing the screen, the boxes rearrange to line up in rows of two and the positioning remains clear and balanced. 
+- The input fields tint blue when hovered over to aid usability - users will know they have clicked in the correct place before they start typing. 
+- The input field for 'Message' doesn't have this hover over effect and will need to be changed. 
+- The 'Submit' button for signing up to the newsletter works as a link to take users to a success page so that they know they have successfully signed up. 
+- The 'Send' button for sending a message to the band works as a link to take users to a success page so that users know their message has been sent. 
+- Unfortunately I haven't been able to make the success pages conditional on the forms being filled in correctly at this stage as that is currently beyond the scope of my knowledge. 
+- The email addresses in the 'Contact Details' section work as 'mailto' links and open up a new email in the users email client to make it easier for them to get in touch. 
+- The link to download the Electronic Press Kit as a pdf works and opens in a new tab so that users can stay on the main site. 
+
+**Newsletter Sign Up Success**
+*Google Chrome:*
+- All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly, with the exception that in testing I noticed that the 'Music' link in the navbar was shown in black indicating that it was the active link when that was not the case. 
+I have fixed this by removing the active link information to show that this success page is not part of the main site. 
+- The cat logo and text display correctly. They also resize responsively as the screen is resized and remain centered at all screen sizes. 
+
+**Message Sent Successfully**
+*Google Chrome:*
+- All navbar, iconbar and footer functionality detailed in the above section for 'Home' is identical to that in the 'Home' page and is working correctly, with the exception that in testing I noticed that the 'Music' link in the navbar was shown in black indicating that it was the active link when that was not the case. 
+I have fixed this by removing the active link information to show that this success page is not part of the main site. 
+- The cat logo and text display correctly. They also resize responsively as the screen is resized and remain centered at all screen sizes. 
+
+**Bugs Identified in Manual Testing**
+- I have identified a bug where there is a tiny gap between the top of the vertical right side icon bar and the bottom of the top navbar when the site is viewed on screens above the medium breakpoint size. 
+This allows the background image to show through slightly and creates a faint but distracting line which disrupts the flow of the page. I have tried a number of things to fix this including adding margins and padding but this hasn't worked and the bug remains in place affecting every page. 
+- The 'Message' box in the Contact the Band section of the 'Contact' page does not have the same blue hover over effect as the other input fields. I fixed this by adding the "text-input" class which was creating the effect in the other text inputs, however making the message section part of this class overrode the 'rows' which I was using to create it's height because class "text-input" had a set height.
+I overrode the effect of the set height for the text-input class by adding an id of 'message' with a set height of 200px. 
 
 **USER STORIES TESTING:**
 

@@ -279,10 +279,10 @@ tr:hover{
     color:#0a618c
 }
 
-#terms-conditions{
-    color:black;
-    text-decoration: underline;
+#message{
+    height:200px;
 }
+
 /*FORM SUBMISSION SUCCESS PAGES*/
 .cat{
     display:block;
