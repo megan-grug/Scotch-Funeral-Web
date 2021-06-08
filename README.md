@@ -177,7 +177,8 @@ A form for signing up to the band’s newsletter, a form enabling users to conta
 ## SKELETON PLANE
 
 Before starting to code the website I prepared wireframes showing the planned page structures for mobile and laptop sizes on each page. 
-LINK TO WIREFRAMES
+
+Link to Wireframes(https://github.com/megan-grug/Scotch-Funeral-Web/blob/master/wireframes/wireframes.pdf)
 
 
 
