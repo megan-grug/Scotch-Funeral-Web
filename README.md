@@ -176,7 +176,7 @@ A form for signing up to the band’s newsletter, a form enabling users to conta
 
 Before starting to code the website I prepared wireframes showing the planned page structures for mobile and laptop sizes on each page. 
 
-Link to Wireframes(https://github.com/megan-grug/Scotch-Funeral-Web/blob/master/wireframes/wireframes.pdf)
+[Link to Wireframes](https://github.com/megan-grug/Scotch-Funeral-Web/blob/master/wireframes/wireframes.pdf)
 
 
 
