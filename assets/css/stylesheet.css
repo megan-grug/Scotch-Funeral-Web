@@ -55,6 +55,10 @@ a:link{
   color: whitesmoke !important;
 }
 
+.music-menu{
+    color:555;
+}
+
 /* Side Icon Bar */
 .iconbar {
   right: 0;

@@ -350,6 +350,8 @@ The only difference is that 'Music' is now shown in black rather than grey text 
 
     - All the same testing as for the 'Not Drinking' individual album page has been carried out with the same results. 
 
+
+
 **Gigs**
 
 
@@ -415,6 +417,10 @@ This allows the background image to show through slightly and creates a faint bu
 I overrode the effect of the set height for the text-input class by adding an id of 'message' with a set height of 200px. 
 
 - The active links for individual album pages highlight in the wrong shade of blue on the 'Music' dropdown and this is visually jarring, however I have been unable to override this. I will seek to correct this in future versions of the project.
+
+- The background image initially did not load on any page, or any browser. I checked the filepath for the image and changed it from an absolute filepath to a relative filepath and this fixed the issue. 
+
+- The thumbnail for 'Not Drinking' on the 'Music' page was not loading on any browser. I checked the filepath for the image and removed an unneccessary '/' at the beginning. This fixed the issue.  
 
 
 **USER STORIES TESTING:**
