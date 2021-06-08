@@ -93,13 +93,6 @@ color:rgba(0,0,0,.55);
   min-height: 100vh;
 } 
 
-
-/* Page content. Moving it in to the right from the side icon bar */
-.content{
-  margin-top:75px;
-  margin-right: 75px;
-  min-height: 100vh;
-}
 }
 /* If screen is less than 768px wide (bootstrap medium), make the sidebar into a footer */
 @media screen and (max-width: 768px) {
@@ -120,13 +113,27 @@ color:rgba(0,0,0,.55);
     .content{
         padding-right:0px;
         margin-bottom: 150px;
-        margin-top:150px;
+        margin-top:75px;
     }
+}
+/*If screen is less than 360px wide, change top margin*/
+@media screen and (max-width: 360px){
+.content {
+    padding-right: 0px;
+    margin-bottom: 150px;
+    margin-top: 110px;
+}
 }
 /*HOME PAGE*/
 .quotes{
     background-color: rgba(60, 60, 60, 0.6);
     padding: 10px;
+}
+
+/*ABOUT PAGE*/
+#band-bio{
+    text-align:left;
+    font-size: smaller;
 }
 
 /*MUSIC PAGE*/
