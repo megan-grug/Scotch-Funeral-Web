@@ -2,7 +2,10 @@
 
 This is a website for Scotch Funeral, a garage-rock band based in North Wales. 
 
-It is a mobile first, responsive design and the live website can be viewed here: 
+It is a mobile first, responsive design and the live website can be viewed [here](https://megan-grug.github.io/Scotch-Funeral-Web/index.html) 
+
+An example of how the homepage looks on various screensizes can be viewed [here](https://github.com/megan-grug/Scotch-Funeral-Web/blob/master/assets/img/responsive-capture.JPG)
+
 
 ## USER EXPERIENCE:
 
