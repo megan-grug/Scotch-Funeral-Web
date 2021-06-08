@@ -22,7 +22,7 @@ footer{
 }
 
 a:link{
-    color:white;
+    color:whitesmoke;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ a:link{
 /* Additional styling for menu items */
 .menu-items a:hover{
   background-color: #555;
-  color: white !important;
+  color: whitesmoke !important;
 }
 
 /* Side Icon Bar */
@@ -73,7 +73,7 @@ a:link{
 /* Side icon bar links on mouse-over */
 .iconbar a:hover {
   background-color: #555;
-  color: white;
+  color: whitesmoke;
 }
 
 .iconbar i{
@@ -116,7 +116,6 @@ a:link{
     }
 }
 
-
 /*HOME PAGE*/
 .quotes{
     background-color: rgba(60, 60, 60, 0.6);
@@ -126,81 +125,6 @@ a:link{
 .buffer{
     margin-bottom: 100px;
 }
-
-  /*  margin: 2.5% 2.5% 0 2.5%;
-}
-/*
-#walton{
-    background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
-    padding: 20px;
-    margin: 2.5% 2.5% 0 2.5%;
-    width:30%;
-}
-
-#crud{
-    background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
-    padding: 20px;
-    margin: 2.5% 2.5% 0 2.5%;
-    width:30%;
-}
-
-#magazine{
-    background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
-    padding: 10px;
-    margin: 2.5% 2.5% 0 2.5%;
-    width:30%;
-}
-*/
-/*ABOUT PAGE*/
-/*
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(60, 60, 60, 0.6);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-
-.container:hover .overlay {
-  width: 100%;
-}
-
-.about-text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-*/
-/*
-.container {
-  position: relative;
-  width: 80%;
-}*/
 
 .image {
   display: block;
@@ -260,7 +184,7 @@ a:link{
 }
 
 .about-text {
-  color: white;
+  color: whitesmoke;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -324,7 +248,7 @@ a:link{
   font-size: 2rem;
   font-weight: bold;
   margin-top: 1.25rem;
-  color: white;
+  color: whitesmoke;
 }
 
 /*ALBUM PAGES*/
@@ -339,12 +263,22 @@ a:link{
     margin-top:5%;
     width: 70% !important;
     background-color: rgba(60, 60, 60, 0.9);
-    color:white;
+    color:whitesmoke;
 }
 
 tr:hover{
     background-color: rgba(245,245,245,0.5);
     color:black;
+}
+
+.mytable a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.tickets{
+    background-color: #0a618c;
+    color:whitesmoke;
 }
 
 /*CONTACT PAGE*/
@@ -380,7 +314,7 @@ tr:hover{
 }
 
 .newsletter-form{
-    color: #fff;
+    color: whitesmoke;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 100%;
     padding: 30px;
@@ -399,13 +333,13 @@ tr:hover{
 
 .text-input{
     background:transparent;
-    color:#fafafa;
+    color:whitesmoke;
     width:90%;
     height:25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius:2px; 
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .text-input:hover{
@@ -419,12 +353,12 @@ tr:hover{
     text-align: center;
     font-size:100%;
     background-color:#0a618c;
-    color: white;
+    color: whitesmoke;
     display:block;
 }
 
 .submit-button:hover {
-    background-color:white;
+    background-color:whitesmoke;
     color:#0a618c
 }
 
