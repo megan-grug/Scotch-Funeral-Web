@@ -2,9 +2,7 @@
 
 This is a website for Scotch Funeral, a garage-rock band based in North Wales. 
 
-It is a mobile first, responsive design and the live website can be viewed here: *TBC
-
-*RESPONSIVE SCREENSHOT TBC
+It is a mobile first, responsive design and the live website can be viewed here: 
 
 ## USER EXPERIENCE:
 
