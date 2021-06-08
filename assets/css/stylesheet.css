@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Special Elite', cursive;
-    color: red;
+    color: black;
     background: url(/assets/img/bluesea.jpg);
     background-size: cover;
 }
@@ -84,15 +84,24 @@ a:link{
     align-items: center;
 }
 
+/*MEDIA QUERIES FOR AFFECTING ALL PAGES*/
+@media screen and (min-width: 787px){
+
+/* Page content. Moving it in to the right from the side icon bar */
+.content{
+  margin-top:75px;
+  margin-right: 75px;
+  min-height: 100vh;
+} 
+
+
 /* Page content. Moving it in to the right from the side icon bar */
 .content{
   margin-top:75px;
   margin-right: 75px;
   min-height: 100vh;
 }
-
-/*MEDIA QUERIES FOR AFFECTING ALL PAGES*/
-
+}
 /* If screen is less than 768px wide (bootstrap medium), make the sidebar into a footer */
 @media screen and (max-width: 768px) {
     .iconbar {
@@ -108,14 +117,11 @@ a:link{
         float: left;
     }
 
-    div.content {
-        margin:0;
-    }
-
 /* If screen is less than 768px wide (bootstrap medium), remove the right side content padding and add bottom padding instead */
     .content{
         padding-right:0px;
         margin-bottom: 150px;
+        margin-top:150px;
     }
 }
 /*HOME PAGE*/
