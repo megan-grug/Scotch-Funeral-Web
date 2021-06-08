@@ -36,7 +36,6 @@ An example of how the homepage looks on various screensizes is included above.
 - Increase press coverage.
 
 
-
 #### Promoters and people working in the music industry (D)
 **Goals:**
 - Access information about the band quickly and easily (they are doing this in work, when they are likely to be busy rather than at leisure like fans);
@@ -47,7 +46,7 @@ An example of how the homepage looks on various screensizes is included above.
 
 ## STRATEGY PLANE:
 
-**Project Purpose:**
+**Project Purpose from the perspective of the site owners:**
 
 - Increase number of gigs and attendance at gigs:
     - **Strategy:** I will do this by ensuring that information about booked gigs and details of how to buy tickets are easily available to fans visiting the site and that contact details for booking gigs are clear and visible for promoters looking to book the band for gigs. We will also use a newsletter sign up form to enable fans and potential new fans to be updated whenever new gigs are announced.
@@ -75,8 +74,7 @@ An example of how the homepage looks on various screensizes is included above.
 | Contact form              |     4       |     4       |
 | PDF Electronic Press Kit  |     4       |     3       |
 | Merch shop                |     2       |     1       |
-|                  
-
+               
 
 I have chosen not to include a merchandise shop in this incarnation of the project as I do not currently have the skills to execute this feature. Furthermore, the band already benefits from a basic merch shop on Bandcamp, so this was not deemed to be a high importance feature at this time.
 
@@ -112,9 +110,17 @@ The following pages will be included in the project:
 
 -	Music
 
+-   Individual pages for each of the band's releases 
+
 -	Gigs
 
 -	Contact 
+
+-   Success page for users who have signed up to the newsletter
+
+-   Success page for users who have used the contact form to get in touch with the band
+
+-   404 error page
 
 Every page will feature:
 
@@ -129,37 +135,70 @@ This same main structure will be used on every page to help the users to quickly
 
 
 **Home:**
-
 Hero image of the band followed by cards featuring quotes/testimonials from music industry professionals about the band. 
 
 
 **About:**
-
 An image of each member of the band followed by an image of the band playing live. Each image will be overlaid on hover-over with a bio of the respective subject. 
 
 
 **Music:**
-
 A tiled style gallery of the covers of the band’s releases. On hover-over each image will show the title of the release. Both the images and the hover over content will serve as links to take the user to a page for that release where they can stream or buy (depending on availability – not all releases are still available for purchase). 
 
 
 **Gigs:**
-
 A table showing upcoming gigs. A hover effect will be used to add focus to the selected gig and links to buy tickets will be provided when appropriate. 
 
-
 **Contact:**
-
 A form for signing up to the band’s newsletter, a form enabling users to contact the band directly, email addresses for the band and their management and also a link to download the band’s EPK will be included here. 
 
+**Success page for users who have signed up to the newsletter:**
+This will be a very basic page using the same basic structure as all other pages for familiarity and intuitive use, but with an image of the band's cat logo and a message confirming the sign up was successful. 
+This will increase users confidence in their use of the website. 
 
+**Success page for users who have used the contact form to get in touch with the band:**
+This will be a very basic page using the same basic structure as all other pages for familiarity and intuitive use, but with an image of the band's cat logo and a message confirming that their message was successfully sent. 
+This will increase users confidence in their use of the website. 
+
+**404 Error Page:**
+ to reassure users if they stumble onto a broken or non-existent page and help them to navigate back to the main site.
+ This page will include a friendly message and an image of the band's popular cat logo. The aim is to prevent the user from feeling frustrated, or thinking the whole site is broken and navigating away from the site. 
+ The cat logo will form a link to take the user back to the homepage and the text will explain this. The standard navbar and iconbar will also be included on the 404 error page so that it looks familiar and the user can navigate to any part of the site with just one click and does not have to use the browser 'back' button.
+ 
+
+**Changes from original plan:**
+I had initially planned to include a gallery page showing photographs of the band, and I included this in my wireframes. 
+As the project progressed however, I realised as part of my research into band websites and the expectations of potential users that galleries are no longer a popular inclusion on band websites, and the idea now seems quite dated. 
+I spoke to several people who would be likely to use band websites generally, and also this band's website in particular and none of them said they would expect to see a gallery of photographs nor did they express any interest in having one as part of the site. 
+It seems that people are becoming used to using social media to look at things like pictures of bands, and as the band already has an Instagram profile featuring not only their own photographs but also those they are tagged in by fans, including a gallery page seemed a bit pointless. 
+On reflection, this seemed to be a feature I had considered including just because I knew that I could, rather than because it would add value to the site owners or users and for that reason I decided not to include the gallery page.
+
+
+I had also intended to include a 'Press' page where music industry professionals could find contact details for the band's management team and access the Electronic Press Kit. In practice when I started to code the site I realised that it would be more streamlined to include these as part of the 'Contact' page because all these sections are closely related. 
+Furthermore, discarding the separte 'Press' page and adding these features to the Contact page makes for a better user experience for music industry professionals as they have to navigate around fewer pages. 
 
 ## SKELETON PLANE
 
+![wireframe showing the planned structure for the music page as viewed on a laptop](wireframes/music-wireframe.jpg)
 Before starting to code the website I prepared wireframes showing the planned page structures for mobile and laptop sizes on each page. 
+This helped me to identify the basic navigational structure I wanted to achieve, and the wireframes show that I was planning to have a consistent repeated navbar from the outset. 
+The wireframes also show the plans for the responsive navigation bar to use a hamburger menu on smaller screens in order to save space without compromising function and accessibility. 
+In the end, I tweaked the navigation styling slightly, but the principle remained the same. 
+
+The navigation structure I chose to pursue was based on consistency to help the users feel comfortable on the website straight away and efficiency whereby users can get anywhere on the site within two clicks. This is shown in the wireframes. 
+
+The wireframes also show my plan to use font awesome icons to link to the band's social media pages. 
+I have chosen to use these because they are instantly recognisable to most users and they know to expect to be linked to the relevant social media sites if they click on those familiar icons. 
+
+**Changes since planning stage:**
+One small change I made to the icons used was to omit the use of the Spotify icon in the final project, whereas it was included in the initial wireframes. 
+The reason for this is that on further discussion with the band as the project progressed I became aware that not all of their music is currently available on Spotify as it is in the process of being re-mastered. 
+For that reason, I decided to use Bandcamp as the music source as it has the full collection available. As the site includes individual album pages where users can stream or link to buy the music, I decided to not also add a separate icon to link to Bandcamp because I felt that this risked taking the user away from our site without adding much value. 
+
 
 [Link to Wireframes](https://github.com/megan-grug/Scotch-Funeral-Web/blob/master/wireframes/wireframes.pdf)
 
+As part of preparing the wireframes, I planned out and considered how users would navigate the site. 
 
 
 ## SURFACE PLANE
@@ -173,11 +212,17 @@ Where there are items which I want to further stand out (such as submit, send an
 
 **Typography:**
 
-I used Google Fonts to find suitable fonts for the website in order to make it stand out and to give it a more tailored and artistic feel, in line with the band’s aesthetic. I chose IM Fell English SC and Special Elite. 
+I used Google Fonts to find suitable fonts for the website in order to make it stand out and to give it a more tailored and artistic feel, in line with the band’s aesthetic. 
+
+I chose IM Fell English SC and Special Elite. 
 IM Fell English SC was chosen as the logo font because it has a maritime and antiquated feel which lines up with the band’s aesthetic and the themes of their music, and is still visually clear and legible. 
 Special Elite was chosen as it represented the more punk side of the band’s music and is similar to another font they have used elsewhere on merchandise, so it tied in and creates a visually consistent aesthetic. In some areas, a heavier weight of Special Elite will be used to draw attention to text and ensure it is clear and easily readable. 
 
 
+**Themes:**
+
+Both members of the band come from seaside towns and the sea and seaside towns feature in many of their songs, so I chose to include an image of waves as a background image as a subtle nod to this.
+The choice of old fashioned style fonts also feeds into the theme of the past, the passage of time and decay which features in many of the band's songs. 
 
 ## TECHNOLOGIES USED
 
@@ -421,6 +466,7 @@ I overrode the effect of the set height for the text-input class by adding an id
 ### USER STORIES TESTING:
 
 **Existing fans of the band (A)**
+![screenshot of the gigs page as viewed on an iPhone 8](assets/img/gigs-capture.jpg)
 
 Goals:
 - Find out about upcoming gigs;
@@ -429,6 +475,8 @@ Goals:
     One click to there will take them straight to a table of upcoming gigs. There is no clutter on the page distracting from the information. A hover effect has been used to add focus to the selected gig.
     All the key information including dates, venues is included. Venue information is a clickable link taking the user to the google maps location of the venue and where tickets can be bought online there is a link to buy tickets. 
     Both of these external sites are linked here and open in new tabs to prevent the user feeling they need to leave the site to go and look these things up themselves. 
+    I have included a screenshot of the gigs page as viewed on an iPhone 8 to show how easy the site makes it for existing fans to check in and see what gigs the band have coming up. All upcoming gigs are listed in one place, which is easy to find as it is listed as 'gigs' in the navigation bar which is present on every page. 
+    The highlight feature makes it easy to add focus to the gig you are looking at, and the clickable links in the 'Buy Tickets' button and the venue address make it intuitive and easy to take the next steps towards planning to go to a gig without leaving the website.
 
 
 - Listen to music; 
@@ -451,12 +499,15 @@ Goals:
     - In future, I may add a modal for signing up to the newsletter to the front page but at this time the band wanted to focus on having a clear and uncluttered hero image for a striking first impression of the site. The newsletter sign up was less important to them at this time but that may change in future and the site should adapt with their needs. 
 
 **Potential fans of the band (B)**
+![screenshot showing the home page as viewed on a laptop](assets/img/home-capture.jpg)
 
 Goals:
 
 - Find out more about the band;
 
     - The inclusion of the hero image and the styling of the home page give a strong first impression of the band which is closely aligned to the band's aesthetic.
+    I have included a screenshot of the home page as viewed on a laptop above to show the impact that the hero image has. This is important, because looking up a band's website is often the first time a potential fan sees them, and this is why we have prioritised the hero image and used it in this prominent placement.
+    The screenshot of the home page also shows the standard and consistent formatting of the basic page structure (side bar and navigation bar) that has been used for every page. This helps the user feel comfortable using the site more quickly and the clear nav bar in particular helps them to easily find the information they are looking for. 
     The inclusion of the testimonial cards on the front page gives potential fans an idea what other people (specifically, people in the music busines) are saying about the band and adds legitimacy. 
    
     - An 'About' page is clearly signposted from the navigation bar which is included on every page. 
@@ -478,6 +529,8 @@ Goals:
 
 **The band themselves (C)**
 
+![screenshot of the music page of the deployed website as viewed on laptop](assets/img/music-capture.jpg)
+
 Goals:
 
 The site will help the band to achieve all of their goals by being user friendly to the other users, and meeting the goals of the other users above (A, B and C) - fans, potential fans and music industry professionals. Each category of user is more likely to form a relationship with the band and go on to buy their music by having a positive experience of the band's website.
@@ -488,36 +541,35 @@ These matters will also organically support each other, for example as music ind
     - The site enables any user visiting it to stream the band's music, and as detailed above this has been made as easy as possible for users to access. 
 
 
-- Increase attendance at their gigs;
+- Increase number of gigs and attendance at their gigs;
   
     - The site will increase attendance at the band's gigs by prominently displaying information about upcoming gigs. Any user visiting the site will see that there is a link to the 'gigs' section on every single page on the site. 
     Additionally, links have been included to enable users to buy tickets online in advance where that is possible. This increases the chance of site users attending gigs because they may have already committed to buying tickets - they are less likely to forget about the gig and not go. 
 
-
-- Get booked for more gigs by promoters;
-   
     - This goal will be met by the inclusion of the gig page with a table of upcoming gigs - meaning that promoters can easily see when the band is free to be booked for more gigs. The Contact page will also help to achieve this goal because promoters who want to book the band have options for two easy ways to get in touch with the band or their booking agent. 
     They can either use the contact form, or the email addresses which have been formatted as 'mailto' links so that if clicked, they will automatically open up a new email to that address in the users email client. 
     I have also added black and underline formatting to the email addresses to make set them apart from the other text and make it obvious that these are clickable links. I have also added a 'success' page which will show when a user has contacted the band to make it as user friendly as possible. This will increase users confidence in the site.  
 
+
+- Increase sales and streams of music;    
+ 
+    - Every page of the site includes a prominent link to the 'Music' section, as well as the 'music' dropdown which allows the user to navigate straight to the specific album they want to buy. 
+  
+    - The 'Music' page showing thumbnails of all the album artwork increases the recognisability of the album artwork, and will make it more likely that a user of the site would recognise the albums if they saw them at gigs or in a bricks and mortar shop and would increase the likelihood of them buying music.
+    I have included a screenshot above of the music page being viewed on a laptop in order to show the effect of the tiled album cover feature.  
+  
+    - Additionally, where music is available to buy there is a link on the relevant individual album page allowing the user to do so. 
+  
+    - Unfortunately, creating a web shop as part of this site is currently beyond the scope of my knowledge and skills. This is a feature I would like to add in the future. 
 
 - Increase press coverage;
 
     Press coverage will be increased by meeting the goals of the music industry professionals below. 
 
 
-- Increase sales of music;    
- 
-    - Every page of the site includes a prominent link to the 'Music' section, as well as the 'music' dropdown which allows the user to navigate straight to the specific album they want to buy. 
-  
-    - The 'Music' page showing thumbnails of all the album artwork increases the recognisability of the album artwork, and will make it more likely that a user of the site would recognise the albums if they saw them at gigs or in a bricks and mortar shop and would increase the likelihood of them buying music. 
-  
-    - Additionally, where music is available to buy there is a link on the relevant individual album page allowing the user to do so. 
-  
-    - Unfortunately, creating a web shop as part of this site is currently beyond the scope of my knowledge and skills. This is a feature I would like to add in the future. 
-
 
 **Promoters and people working in the music industry (D)**
+![screenshot of the contact page being viewed on a laptop](assets/img/contact-capture.jpg)
 
 Goals:
 
@@ -539,7 +591,9 @@ Goals:
 
     This goal is met by including a Contact page with a link to it visible on every page of the site. To aid in achieving this goal, I have included both a contact form and contact email addresses formatted as 'mailto' links.
     This means the user can use their preferred method. Some people may prefer to send an email through their own email client rather than using the webform as it may be easier for them to keep records, and music industry professionals are approaching this in their professional capacity so this may be more important to them. 
-    Giving two options for getting in touch also means that if there is a problem with the web form for contacting the band, music industry professionals can still get in touch. 
+    Giving two options for getting in touch also means that if there is a problem with the web form for contacting the band, music industry professionals can still get in touch. I have included above a screenshot of the contact page being viewed on a laptop in order to show how helpful this will be to music industry professionals. 
+    As can be seen in the screenshot, the page is balanced and consistently styled so as not to distract from the function and contains several useful features for music industry professionals. They have quick and easy to find access to the Electronic Press Kit, contact details for the band and their management team, the opportunity to sign up to the newsletter to keep up to date and also the option of contacting the band direct through the contact form without leaving the site. 
+
 
 **FUTURE PLANS**
 
