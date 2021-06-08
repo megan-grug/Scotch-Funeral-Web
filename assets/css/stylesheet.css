@@ -12,7 +12,7 @@
 body{
     font-family: 'Special Elite', cursive;
     color: black;
-    background: url(/assets/img/bluesea.jpg);
+    background: url(../../assets/img/bluesea.jpg);
     background-size: cover;
 }
 
