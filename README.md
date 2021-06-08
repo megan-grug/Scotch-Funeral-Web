@@ -232,10 +232,16 @@ Used to inspect each page of the site and to check each element and function at 
 
 **VALIDATOR SERVICES:**
 - W3C Markup Validator:
+    All pages have been through the W3C Markup Validator and passed with the exception of:
+        - Individual album pages show an error of "Error: Attribute seamless not allowed on element iframe at this point" and "Error: Text not allowed on the element iframe in this context".
+        As this is the part of the music player embedding code from Bandcamp, I am not able to fix this. 
+   
 
 - W3C CSS Validator:
-- Lighthouse:
+    All CSS has been through the W3C CSS Validator and passed. 
 
+- Lighthouse:
+    All pages have been through Lighthouse and passed (90+ scores) with the exception of the home page which received a 'Best Practices' score of 87 due to 'serves images with low resolution'. This is something which I will seek to address in further incarnations of the project.
 
 **MANUAL TESTING**
 
@@ -412,6 +418,8 @@ This allows the background image to show through slightly and creates a faint bu
 
 - The 'Message' box in the Contact the Band section of the 'Contact' page does not have the same blue hover over effect as the other input fields. I fixed this by adding the "text-input" class which was creating the effect in the other text inputs, however making the message section part of this class overrode the 'rows' which I was using to create it's height because class "text-input" had a set height.
 I overrode the effect of the set height for the text-input class by adding an id of 'message' with a set height of 200px. 
+
+- The active links for individual album pages highlight in the wrong shade of blue on the 'Music' dropdown and this is visually jarring, however I have been unable to override this. I will seek to correct this in future versions of the project.
 
 
 **USER STORIES TESTING:**
