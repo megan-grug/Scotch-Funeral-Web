@@ -179,7 +179,8 @@ Furthermore, discarding the separte 'Press' page and adding these features to th
 
 ## SKELETON PLANE
 
-![wireframe showing the planned structure for the music page as viewed on a laptop](wireframes/music-wireframe.jpg)
+![wireframe showing the planned structure for the music page as viewed on a laptop](wireframes/music-wireframe.JPG)
+
 Before starting to code the website I prepared wireframes showing the planned page structures for mobile and laptop sizes on each page. 
 This helped me to identify the basic navigational structure I wanted to achieve, and the wireframes show that I was planning to have a consistent repeated navbar from the outset. 
 The wireframes also show the plans for the responsive navigation bar to use a hamburger menu on smaller screens in order to save space without compromising function and accessibility. 
